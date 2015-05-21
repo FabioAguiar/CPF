@@ -25,7 +25,7 @@ public class GeradorCPF {
 	    System.out.println("cpf: " + cpf.toString());
 	    
 	    
-		return null;
+		return cpf.toString();
 	}
 	
 	  private StringBuffer gerarNumeroRandomicoCPF(int startRange, int endRange, Random aRandom){
