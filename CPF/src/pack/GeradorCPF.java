@@ -122,5 +122,5 @@ public class GeradorCPF {
 	  
 	  private void log(String aMessage){
 		    System.out.println(aMessage);
-		  }
+		 }
 }

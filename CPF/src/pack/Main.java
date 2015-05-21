@@ -6,7 +6,6 @@ public class Main {
 		GeradorCPF gCpf = new GeradorCPF();
 		
 		gCpf.gerarCPF();
-		
 	}
 
 }
