@@ -32,6 +32,7 @@ public class GeradorCPF {
 		    if (startRange > endRange) {
 		      throw new IllegalArgumentException("Start cannot exceed End.");
 		    }
+		    
 		    long range = (long)endRange - (long)startRange + 1;
 		    long fraction = (long)(range * aRandom.nextDouble());
 		    Integer numeroRandomico =  Integer.valueOf((int) fraction + startRange); 
