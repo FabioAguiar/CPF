@@ -1,2 +1,2 @@
 # CPF
-Projeto simples que apenas gera aleatóriamente uma sequencia numérica válida de CPF.
+Gerador de numeração valiada de CPF.
